@@ -12,6 +12,22 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body{
+  background-color: #f1f1f1;
+}
+.display{
+  background-color: #f1f1f1;
+  border: 1px solid darkgrey;
+  height: auto;
+  margin: 1em;
+}
+.billing-list{
+  list-style-type:decimal-leading-zero;
+}
+.bill-container{
+  width: 90%;
+  height: 90vh;
+}
 
 .App-header {
   background-color: #282c34;
@@ -21,6 +37,51 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  margin:20vh 15vh;
+  height: 15em;
+  padding: 2em;
+  background-color: #282c34;
+  color: white;
+  border-radius: 2em;
+  
+}
+.e-mail, .password{
+  margin: 0.2em;
+}
+input{
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+}
+button{
+  margin:3px;
+  background-color: dodgerblue;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+.btn{
+  margin:3px;
+  background-color: dodgerblue;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.log-in{
+  background-color: dodgerblue;
+  border: 0;
+  border-radius: 5px;
+  margin:2em;
   color: white;
 }
 
